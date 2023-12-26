@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/dumb_charades_bypavi/static/css/main.0e359880.css",
-    "main.js": "/dumb_charades_bypavi/static/js/main.69a0e3f2.js",
+    "main.js": "/dumb_charades_bypavi/static/js/main.8faa3d4f.js",
     "static/js/787.599abc7f.chunk.js": "/dumb_charades_bypavi/static/js/787.599abc7f.chunk.js",
     "static/media/home.png": "/dumb_charades_bypavi/static/media/home.83db212f2c7ec876f6ca.png",
     "index.html": "/dumb_charades_bypavi/index.html",
     "main.0e359880.css.map": "/dumb_charades_bypavi/static/css/main.0e359880.css.map",
-    "main.69a0e3f2.js.map": "/dumb_charades_bypavi/static/js/main.69a0e3f2.js.map",
+    "main.8faa3d4f.js.map": "/dumb_charades_bypavi/static/js/main.8faa3d4f.js.map",
     "787.599abc7f.chunk.js.map": "/dumb_charades_bypavi/static/js/787.599abc7f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0e359880.css",
-    "static/js/main.69a0e3f2.js"
+    "static/js/main.8faa3d4f.js"
   ]
 }
