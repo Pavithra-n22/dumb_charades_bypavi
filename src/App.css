@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hide-text {
+  /* Add styles to hide the entered text */
+  color: transparent;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.app-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: black;
+  color: white;
+}
+
+.form-container {
+  text-align: center;
+}

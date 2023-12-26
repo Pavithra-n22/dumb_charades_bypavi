@@ -1,25 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+// App.js
+import React, { useState } from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
-function App() {
+import TeamSelection from './TeamSelection';
+import EnterDetails from './EnterDetails';
+import GuessPage from './GuessPage';
+import Chat from './Chat'; // Import the Chat component
+
+const App = () => {
+  const [chatMessages, setChatMessages] = useState([]);
+  const [scores, setScores] = useState({});
+
+  const addMessage = (message) => {
+    setChatMessages([...chatMessages, message]);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Switch>
+        <Route path="/" exact>
+          <TeamSelection scores={scores} setScores={setScores} />
+        </Route>
+        <Route path="/enterdetails">
+          <EnterDetails addMessage={addMessage} scores={scores} setScores={setScores} />
+        </Route>
+        <Route path="/guess">
+          <GuessPage scores={scores} />
+        </Route>
+        <Route path="/chat">
+          <Chat chatMessages={chatMessages} addMessage={addMessage} />
+        </Route>
+      </Switch>
+    </Router>
   );
-}
+};
 
 export default App;

@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('C:\Users\pavit\OneDrive\Desktop\ecommerce\GuessMe\guess-me-frontend_bypavi\home.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Arial', sans-serif; /* Add your preferred font-family */
+}

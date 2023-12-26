@@ -1,0 +1,21 @@
+/* TeamSelection.css */
+
+.center-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Set the height of the container to 100% of the viewport height */
+  }
+  
+  .team-selection {
+    text-align: center;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    background-image: url('C:\Users\pavit\OneDrive\Desktop\ecommerce\GuessMe\guess-me-frontend_bypavi\home.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Arial', sans-serif; /* Add your preferred font-family */
+  }
